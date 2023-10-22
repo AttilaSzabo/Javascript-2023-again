@@ -55,38 +55,39 @@ main {
 
 .calculator_container {
     margin-top: 30px;
-    border-radius: 10px;
+    width: 310px;
+    height: 100%;
+    background-color: rgb(201, 198, 198);
+    padding-bottom: 20px;
+}
+
+.display {
+    height: 50px;
+    background-color: black;
+    border: none;
+    width: 100%;
+    box-shadow: inset 0 0 5px white;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.button {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 450px;
-    padding: 20px;
-    color: black;
-    background-color: rgb(30,30,30);
+
 }
 
-.calculator_container input {
-    width: 60px;
-    cursor: pointer;
+.calculator_container button {
+    margin: 1px;
+    width:70px;
     height: 60px;
-    border-radius: 10px;
     border: none;
-    margin: 15px;
-    background-color: rgba(41,41,41);
-    color: white;
-    font-weight: 500;
-    font-size: 1.3rem;
-    box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.1),-5px -5px 8px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgb(139, 131, 131);
+    cursor: pointer;
 }
 
-.calculator_box {
-    display: flex;
-    justify-content: space-between;
-}
-
-.calculator_container .equel {
-    width: 250px;
-}
 

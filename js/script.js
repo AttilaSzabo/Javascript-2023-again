@@ -13,3 +13,8 @@ reset_to_count.addEventListener("click", () => {
     number_display.innerText = number;
 });
 
+
+
+
+
+
